@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buy-now.css">
+    <title>Buy Now</title>
+</head>
+<body>
+    <div class="head">
+        <!--Title-->
+        
+        <h4 class="maintitle">Shopping cart</h4>
+        <a href="index.html" class="button">&#10060;</a>
+        
+        
+    </div>
+    <div>
+    <!--order-->
+    <div><h5 class="products">Products</h5> </div>
+        <div>
+            <div>
+                <img class="image-honey-shop" src="img/types-of-honey/CloverHoney.jpg" alt="Clover Honey"> 
+                <p class="products">Clover Honey</p>
+                <p>$8,00USD</p>
+            </div>
+            <div class="quantity">
+                    <input type="text" name="name" value="1">
+                    <button class="minus-btn" type="button" name="button">
+                        <p>&#9650;</p>
+                    </button>
+                    <button class="plus-btn" type="button" name="button">
+                        <p>&#9660;</p>
+                    </button>  
+            </div>
+            <div>
+                <!--simbol delete?????????????-->
+                <button class="delete-btn" type="button" name="button">
+                    <img src="img/anya/delete-icon.svg" alt="" />
+                </button>   
+            </div>
+            <div>
+                <p class="count">Total: $23,00USD</p>
+                <p class="products">Place an order</p>
+            </div>        
+        </div>        
+    </div>
+    <div>
+        <form class="contacts-form" method="POST" action="https://formspree.io/f/meqvzwnj">
+            <label>Name<span class="must-information"> *</span> <br>
+                <input class="block" type="text" placeholder="Your name" required name="your-name"> 
+            </label>
+            <br>
+            <label>Email *<br>
+                <input type="text" placeholder="Your email address" required name="Your-email-address">
+            </label>
+            <br>
+            <label>Phone *<br>
+                <input type="text" placeholder="Your phone" required name="Your-phone">
+            </label>
+            <br>
+            <label>Comment <br>
+                <input type="text" placeholder="Your comment" required name="Your-comment">
+            </label>
+            <br>
+            <input class="button-order" type="submit" value="Order">
+        </form>
+    </div>
+
+
+</body>
+</html>
+

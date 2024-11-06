@@ -1,0 +1,228 @@
+.buttonoutlinebuttontype{
+    background-color: var(--hover-color);
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius:10px;  
+    width: 130px;
+    margin-bottom: 30px;
+    }
+.buttonoutlinebuttontype:hover {
+    background-color: rgb(248, 187, 20);
+    color: white;
+}
+.h-title-types {
+    font-size: 17px;
+    color: var(--hover-color);
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+.h-title-types-nav{
+        font-size: 17px;
+        color: var(--hover-color);
+        text-align: left;
+        font-weight: bold;
+        padding-top: 20px;
+     text-transform: uppercase;
+}
+.subtitle-types{
+    font-size: 45px;
+    color: var(--main-color);
+    width: 100%;
+    text-align: left;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.subtitle{
+    font-size: 40px;
+    color: var(--main-color);
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.store-honey {
+    background-color:#F9F4F0;
+    display: grid; 
+    grid-template-columns:auto;
+    align-items: center;
+
+}
+.hslide{
+    align-items: center;
+    padding-block: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.text-carusel-one{
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+/*.types {
+    background-image: url(../img/type_optimized.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: auto;
+    height:auto;
+    }*/
+.imgcarouselone{
+    max-width: 100px;
+    height: auto;
+    padding-top:70px;
+}
+
+section div div .button-outline-button{
+    background-color: var(--hover-color);
+    color: white; 
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius:10px;
+    width: 130px;
+}
+section div div .button-outline-button:hover {
+    background-color: rgb(248, 187, 20);
+    color: white;
+}
+/* check block*/
+
+section .check {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 10px;
+}
+section div .check-icon {
+    height: 25px;
+    width: auto;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* carusel block types*/
+
+.block-check{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: column;  
+}
+.subtitle-types-bar-nav{
+    align-items: flex-start;
+}
+
+/*.carousel-one {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}*/
+
+.img-carousel-one {
+min-width: 250px;
+
+}
+section div .slide-honey{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;  
+    margin-left:15px;
+    margin-right: auto; 
+    max-width: 700px;
+    border-radius:15px;
+}
+@media (max-width: 650px){
+    .carousel-one {
+        grid-template-columns: none;
+        grid-template-rows: 1fr ; }
+}
+.block{
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    padding: 0;
+}
+.blocktyes {
+    background: var(--background);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 13px 150px;
+    justify-content: space-around;
+    flex-direction: column;  
+  }
+  @media (max-width: 650px){
+    .blocktyes {
+        grid-template-columns: none;
+        grid-template-rows: 1fr ; }
+}
+  .block-chec{
+    display: grid;
+}
+.block-chec{
+    display: grid;
+}
+.slidestype{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+  
+
+/* carusel shop*/
+.carousel-two {
+    margin: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.subtitle-types-bar {
+    text-align: center;
+    color: var(--main-color);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: space-around
+  }
+.img-carousel-two {
+min-width: 200px;
+
+}
+section div .slide-shop{
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+@media (min-width: 650px){
+    .carousel-two {
+        flex-direction: row; }
+}
+
+ 

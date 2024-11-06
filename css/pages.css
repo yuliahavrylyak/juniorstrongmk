@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400&display=swap');
+
+:root{
+  font-family: 'Signika Negative', sans-serif;
+  margin: auto;
+}
+
+/* Header css was copied from Anna's part */
+
+header .logo img{
+width: 200px;
+height: auto;
+}
+
+.burger-icon {
+font-size: 2.5rem;
+padding-left: 200px;
+align-items: left;
+cursor: pointer;
+}
+#burger-checkbox {
+display: none;
+align-items: center;
+padding-bottom: 15px;
+height: auto;
+}
+
+header .menu {
+padding: 50px;
+display: none;
+font-weight: bold;
+background-color: var(--background); 
+}
+
+input:checked ~ .menu {
+display: block;  
+} 
+@media (min-width: 700px) {
+.burger-icon {
+    display: none;}
+} 
+header .menu a{
+display: block;
+text-decoration: none;
+color: var(--main-color);
+text-align: center;
+margin-left: 30px;
+}
+
+
+header .menu a:hover{
+color: var(--hover-color);
+}
+
+.pages-header{
+ background-color: #F9F4F0;
+}
+
+
+  /* Main block */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (min-width: 767px) {
+  .page-big-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .page-main-part{
+    display: flex;
+    flex-direction: column;
+  }
+  .pages-forms{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.addit-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F9F4F0;
+}
+
+.page-main-part{
+
+  
+  }
+
+.page-left-block{
+    display: grid;
+
+}
+
+.page-right-block{
+    display: grid;
+
+}
+
+.main-page-link{
+  display: grid;
+
+}
+
+.page-big-image{
+   max-width: 100%;
+  height: auto; 
+}
+
+.page-smal-image{
+  width: 50px;
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+.store-homepage-link{
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  color: #ffd832;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.green-head{
+ font-size: 16px;
+  color: #61a854;
+}
+
+.page-h-three{
+  font-size: 25px;
+  color: #5a3733;
+}
+
+.product-code{
+  font-size: 14px; 
+  color: #5a3733;
+}
+
+.product-price{
+  font-size: 16px;
+      color: #939393;
+}
+
+.pages-forms-counter{
+  value: 1;
+}
+
+.product-descr{
+  font-size: 12px;
+  color: #939393;
+}
+
+.product-text{
+  font-size: 16px;
+  color: #939393;
+  margin-bottom: 50px;
+}
+
+.quote-submit {
+  padding: 13px 15px;
+  margin: 5px 0 20px 0;
+  font-size: 19px;
+  color: white;
+  background-color: #eb6d2f;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  width: 45%;
+}
+
+.quote-submit:hover {
+  background-color: rgb(248, 187, 20);
+  color: white;
+}
+
+.footercontainer{
+  background-image: url(https://res2.weblium.site/res/60a4daed05e9ab0021e47c55/60a6253e05e9ab0021e6d36f_optimized_2327.webp);
+  background-size: cover;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.footerheader{
+  color: grey;
+  font-weight:bold;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footermenu{
+  display:flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.footersocial{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footercreatedby{
+  display:flex;
+  justify-content:center;
+  color:grey;
+  
+}
+.team1{
+  font-weight:bold;
+  color:grey;
+}
+@media (max-width: 767px){
+  .footermenu{
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footermenu a {
+  color:#663B36;
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+.footersocial a {
+  color:#663B36;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footermenu a:hover{
+  color:#eb6d2f;
+}
+.outer_bDW:hover{
+  color:green;
+}
+.team1:hover{
+  color:#eb6d2f;
+  transition: 01s ease-out;
+}
+
+.playbutton{
+  color: #eb6d2f;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border: 5px solid black;
+  border-radius: 50%;
+  fill: currentColor;
+}
+.playbutton:hover{
+  color: white;
+  transition: 05s ease-out;
+}
+.whychooseuscolumns img{
+  float: left;
+}
+.whychooseuscolumns{
+  margin: 40px 40px 40px 40px;
+}
